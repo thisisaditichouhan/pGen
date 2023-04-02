@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+input:focus-visible {
+    outline: 0;
+}
+
+.main {
+    background-color: #e893d1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #da9bf1;
+    border-radius: 27px;
+    margin-top: 10px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 27px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.right input {
+    margin-left: 10px;
+    width: 50px;
+    height: 17px;
+    border-radius: 27px;
+    text-align: center;
+  }
+
+label {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #b96cf0;
+    color: white;
+    margin-top: 10px;
+    border-radius: 27px;
+}
+
+#copy-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: maroon;
+    
+  }  
+
+#copy-btn svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    align-self: center;
+    fill: #a0559b;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+  
